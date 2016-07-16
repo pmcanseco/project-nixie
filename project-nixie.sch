@@ -150,55 +150,55 @@ Based on the following sources:
 &lt;/ul&gt;&lt;br&gt;
 &lt;author&gt;Created by p.s.troost@student.tue.nl&lt;/author&gt;</description>
 <packages>
-<package name="IN-16">
-<wire x1="-5.08" y1="-0.1588" x2="5.08" y2="-0.1588" width="0.254" layer="21" curve="-181.790911"/>
-<circle x="0" y="0" radius="6.3994" width="0.254" layer="21"/>
-<pad name="A" x="0" y="-3.7546" drill="0.63"/>
-<pad name="1" x="1.7448" y="-3.3245" drill="0.63"/>
-<pad name="7" x="3.0899" y="-2.1328" drill="0.63"/>
-<pad name="3" x="3.7272" y="-0.4526" drill="0.63"/>
-<pad name="RHDP" x="3.5106" y="1.3314" drill="0.63"/>
-<pad name="4" x="2.4897" y="2.8103" drill="0.63"/>
-<pad name="5" x="0.8985" y="3.6454" drill="0.63"/>
-<pad name="6" x="-0.8985" y="3.6454" drill="0.63"/>
-<pad name="2" x="-2.4897" y="2.8103" drill="0.63"/>
-<pad name="LHDP" x="-3.5106" y="1.3314" drill="0.63"/>
-<pad name="8" x="-3.7272" y="-0.4526" drill="0.63"/>
-<pad name="9" x="-3.0899" y="-2.1328" drill="0.63"/>
-<pad name="0" x="-1.7448" y="-3.3245" drill="0.63"/>
-<text x="9.0488" y="-2.6988" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<package name="IN-14">
+<wire x1="-7.62" y1="-0.1588" x2="7.6201" y2="0" width="0.254" layer="21" curve="-180"/>
+<circle x="0" y="0" radius="8.8744" width="0.254" layer="21"/>
+<pad name="A" x="0" y="-6.1899" drill="0.84"/>
+<pad name="LHDP" x="2.8766" y="-5.4809" drill="0.84"/>
+<pad name="0" x="5.0942" y="-3.5163" drill="0.84"/>
+<pad name="9" x="6.1448" y="-0.7461" drill="0.84"/>
+<pad name="8" x="5.7877" y="2.195" drill="0.84"/>
+<pad name="7" x="4.1047" y="4.6332" drill="0.84"/>
+<pad name="6" x="1.4813" y="6.0101" drill="0.84"/>
+<pad name="5" x="-1.4813" y="6.0101" drill="0.84"/>
+<pad name="4" x="-4.1047" y="4.6332" drill="0.84"/>
+<pad name="3" x="-5.7877" y="2.195" drill="0.84"/>
+<pad name="2" x="-6.1448" y="-0.7461" drill="0.84"/>
+<pad name="1" x="-5.0942" y="-3.5163" drill="0.84"/>
+<pad name="RHDP" x="-2.8766" y="-5.4809" drill="0.84"/>
+<text x="11.2713" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
-<symbol name="IN-16">
-<wire x1="-5.08" y1="-10.795" x2="-5.08" y2="13.335" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="-10.795" x2="7.62" y2="-10.795" width="0.4064" layer="94" curve="180"/>
-<wire x1="7.62" y1="-10.795" x2="7.62" y2="13.335" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="13.335" x2="7.62" y2="13.335" width="0.4064" layer="94" curve="-180"/>
-<text x="-3.175" y="20.955" size="1.778" layer="95">&gt;NAME</text>
-<pin name="0" x="-7.62" y="-10.16" visible="pin" length="short"/>
-<pin name="9" x="-7.62" y="-7.62" visible="pin" length="short"/>
-<pin name="8" x="-7.62" y="-5.08" visible="pin" length="short"/>
-<pin name="7" x="-7.62" y="-2.54" visible="pin" length="short"/>
-<pin name="6" x="-7.62" y="0" visible="pin" length="short"/>
-<pin name="5" x="-7.62" y="2.54" visible="pin" length="short"/>
-<pin name="4" x="-7.62" y="5.08" visible="pin" length="short"/>
-<pin name="3" x="-7.62" y="7.62" visible="pin" length="short"/>
-<pin name="2" x="-7.62" y="10.16" visible="pin" length="short"/>
-<pin name="1" x="-7.62" y="12.7" visible="pin" length="short"/>
-<pin name="LHDP" x="10.16" y="12.7" visible="pin" length="short" rot="R180"/>
-<pin name="RHDP" x="10.16" y="-10.16" visible="pin" length="short" rot="R180"/>
-<pin name="A" x="10.16" y="0" visible="pin" length="short" rot="R180"/>
+<symbol name="IN-14">
+<wire x1="-5.08" y1="-13.335" x2="-5.08" y2="10.795" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="-13.335" x2="7.62" y2="-13.335" width="0.4064" layer="94" curve="180"/>
+<wire x1="7.62" y1="-13.335" x2="7.62" y2="10.795" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="10.795" x2="7.62" y2="10.795" width="0.4064" layer="94" curve="-180"/>
+<text x="-2.54" y="18.415" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="-7.62" y="10.16" visible="pin" length="short"/>
+<pin name="2" x="-7.62" y="7.62" visible="pin" length="short"/>
+<pin name="3" x="-7.62" y="5.08" visible="pin" length="short"/>
+<pin name="4" x="-7.62" y="2.54" visible="pin" length="short"/>
+<pin name="5" x="-7.62" y="0" visible="pin" length="short"/>
+<pin name="6" x="-7.62" y="-2.54" visible="pin" length="short"/>
+<pin name="7" x="-7.62" y="-5.08" visible="pin" length="short"/>
+<pin name="8" x="-7.62" y="-7.62" visible="pin" length="short"/>
+<pin name="9" x="-7.62" y="-10.16" visible="pin" length="short"/>
+<pin name="0" x="-7.62" y="-12.7" visible="pin" length="short"/>
+<pin name="RHDP" x="10.16" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="A" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="LHDP" x="10.16" y="10.16" visible="pin" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="IN-16" prefix="N">
-<description>IN-16: small numeric&lt;b&gt; frontview&lt;/b&gt; nixie tube</description>
+<deviceset name="IN-14" prefix="N">
+<description>IN-14: medium numeric &lt;b&gt;frontview&lt;/b&gt; nixie tube</description>
 <gates>
-<gate name="G$1" symbol="IN-16" x="-2.54" y="0"/>
+<gate name="G$1" symbol="IN-14" x="0" y="2.54"/>
 </gates>
 <devices>
-<device name="" package="IN-16">
+<device name="" package="IN-14">
 <connects>
 <connect gate="G$1" pin="0" pad="0"/>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -2329,20 +2329,19 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </class>
 </classes>
 <parts>
-<part name="N1" library="russian-nixies" deviceset="IN-16" device=""/>
 <part name="DRIVER" library="74xx-us" deviceset="74*141" device="N"/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="AXIAL-0.3" value="10k"/>
 <part name="DOTS" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="A" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="PWR" library="SparkFun-Connectors" deviceset="M02" device="LOCK" value="5V"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="M04" device="LOCK" value="D"/>
+<part name="NX" library="russian-nixies" deviceset="IN-14" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="N1" gate="G$1" x="-1432.56" y="797.56"/>
 <instance part="DRIVER" gate="A" x="-1465.58" y="802.64"/>
 <instance part="R1" gate="G$1" x="-1404.62" y="797.56"/>
 <instance part="DOTS" gate="G$1" x="-1414.78" y="822.96" rot="R270"/>
@@ -2352,96 +2351,97 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </instance>
 <instance part="PWR" gate="G$1" x="-1468.12" y="843.28" rot="R270"/>
 <instance part="J1" gate="G$1" x="-1503.68" y="800.1"/>
+<instance part="NX" gate="G$1" x="-1432.56" y="800.1"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="N1" gate="G$1" pin="9"/>
 <pinref part="DRIVER" gate="A" pin="9"/>
 <wire x1="-1440.18" y1="789.94" x2="-1452.88" y2="789.94" width="0.1524" layer="91"/>
+<pinref part="NX" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="N1" gate="G$1" pin="8"/>
 <pinref part="DRIVER" gate="A" pin="8"/>
 <wire x1="-1440.18" y1="792.48" x2="-1452.88" y2="792.48" width="0.1524" layer="91"/>
+<pinref part="NX" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="N1" gate="G$1" pin="7"/>
 <pinref part="DRIVER" gate="A" pin="7"/>
 <wire x1="-1440.18" y1="795.02" x2="-1452.88" y2="795.02" width="0.1524" layer="91"/>
+<pinref part="NX" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="N1" gate="G$1" pin="6"/>
 <pinref part="DRIVER" gate="A" pin="6"/>
 <wire x1="-1440.18" y1="797.56" x2="-1452.88" y2="797.56" width="0.1524" layer="91"/>
+<pinref part="NX" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="N1" gate="G$1" pin="5"/>
 <pinref part="DRIVER" gate="A" pin="5"/>
 <wire x1="-1440.18" y1="800.1" x2="-1452.88" y2="800.1" width="0.1524" layer="91"/>
+<pinref part="NX" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="N1" gate="G$1" pin="4"/>
 <pinref part="DRIVER" gate="A" pin="4"/>
 <wire x1="-1440.18" y1="802.64" x2="-1452.88" y2="802.64" width="0.1524" layer="91"/>
+<pinref part="NX" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="N1" gate="G$1" pin="3"/>
 <pinref part="DRIVER" gate="A" pin="3"/>
 <wire x1="-1440.18" y1="805.18" x2="-1452.88" y2="805.18" width="0.1524" layer="91"/>
+<pinref part="NX" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="N1" gate="G$1" pin="2"/>
 <pinref part="DRIVER" gate="A" pin="2"/>
 <wire x1="-1440.18" y1="807.72" x2="-1452.88" y2="807.72" width="0.1524" layer="91"/>
+<pinref part="NX" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="N1" gate="G$1" pin="1"/>
 <pinref part="DRIVER" gate="A" pin="1"/>
 <wire x1="-1440.18" y1="810.26" x2="-1452.88" y2="810.26" width="0.1524" layer="91"/>
+<pinref part="NX" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="N1" gate="G$1" pin="0"/>
 <wire x1="-1440.18" y1="787.4" x2="-1445.26" y2="787.4" width="0.1524" layer="91"/>
 <wire x1="-1445.26" y1="787.4" x2="-1445.26" y2="812.8" width="0.1524" layer="91"/>
 <pinref part="DRIVER" gate="A" pin="0"/>
 <wire x1="-1445.26" y1="812.8" x2="-1452.88" y2="812.8" width="0.1524" layer="91"/>
+<pinref part="NX" gate="G$1" pin="0"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="N1" gate="G$1" pin="A"/>
 <wire x1="-1409.7" y1="797.56" x2="-1422.4" y2="797.56" width="0.1524" layer="91"/>
+<pinref part="NX" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="RHDP" class="0">
 <segment>
-<pinref part="N1" gate="G$1" pin="RHDP"/>
 <pinref part="DOTS" gate="G$1" pin="2"/>
 <wire x1="-1422.4" y1="787.4" x2="-1412.24" y2="787.4" width="0.1524" layer="91"/>
 <wire x1="-1412.24" y1="787.4" x2="-1412.24" y2="815.34" width="0.1524" layer="91"/>
 <label x="-1422.4" y="784.86" size="1.778" layer="95"/>
+<pinref part="NX" gate="G$1" pin="RHDP"/>
 </segment>
 </net>
 <net name="A" class="0">
@@ -2478,11 +2478,11 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </net>
 <net name="LHDP" class="0">
 <segment>
-<pinref part="N1" gate="G$1" pin="LHDP"/>
 <pinref part="DOTS" gate="G$1" pin="1"/>
 <wire x1="-1422.4" y1="810.26" x2="-1414.78" y2="810.26" width="0.1524" layer="91"/>
 <wire x1="-1414.78" y1="810.26" x2="-1414.78" y2="815.34" width="0.1524" layer="91"/>
 <label x="-1422.4" y="807.72" size="1.778" layer="95"/>
+<pinref part="NX" gate="G$1" pin="LHDP"/>
 </segment>
 </net>
 <net name="N$12" class="0">
